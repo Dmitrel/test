@@ -1,12 +1,16 @@
-name: Lint
+name: ESLint Checks
 
 on:
+  push:
+    branches:
+      - main
+      - master
   pull_request:
-    branches: [ master ]
+    branches:
+      - "*"
 
 jobs:
   run_linter:
-
     runs-on: ubuntu-latest
 
     strategy:
