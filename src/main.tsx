@@ -3,6 +3,8 @@ import ReactDOM from "react-dom/client";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <App />
+    <h1>hello</h1>
+
+      <p>xz</p>
   </React.StrictMode>
 );
