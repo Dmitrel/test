@@ -2,9 +2,5 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <React.StrictMode>
-    <h1>hello</h1>
-
-      <p>xz</p>
-  </React.StrictMode>
+  <React.StrictMode>const a = 42</React.StrictMode>
 );
